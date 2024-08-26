@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* -------Header-----Header Start-------- */
+.navbar-brand{
+   
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.site-title a{
+    text-decoration: none; 
+}
+
+.site-title{
+    padding: 1px 6px;
+    background-color: #ffd800;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+    color: black;
+}
+header{
+    height: 70vh;
+    width: 100vw;
+    background-image: url(image/Uranos_header-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 7px solid #ffd800;
+}
+
+.navbar-nav .nav-link { 
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 6px 15px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(14, 13, 13);
+    background-color: #ffd800;
+}
+
+.heading .thin{
+    font-weight: 100;
+}
+
+.heading .medium {
+    font-weight: 500;
+}
+
+form .register{
+    box-shadow: 0px 0.2px .1px .2px #ffd800;
+}
+
+/* -------Header-----Header End-------- */
+
+
+/* -----Service-----Service Start-------- */
+
+.sercice {
+    background-color: #191b29;
+    /* position: relative; */
+    color: #242631;
+}
+
+.ser-title h4 {
+    color: #d3d3d8;
+}
+
+.ser-text p {
+    text-align: justify;
+    font-size: 14px;
+    padding: 8px;
+    color: #9b9ba0;
+}
+
+.ser-phone {
+    position: relative;
+    margin-top: -160px;
+    height: 350px;
+}
+
+.phone img {
+    /* position: absolute; */
+  
+}
+
+@media screen and (max-width:992px) {
+    .ser-phone {
+      visibility: hidden;
+    }
+ } 
+
+
+/* -----Service-----Service End-------- */
+
+
+/* ------Our Team------Our Team Start-------- */
+.our-team{
+    background-color: #ffd800;
+}
+
+.heading h1 {
+    font-weight: 100;
+}
+
+.heading h4 {
+    font-weight: 700;
+}
+
+.our-team h5{
+    font-weight: 500;
+}
+
+.our-team p{
+    font-weight: 300;
+    font-size: 15px;
+    color: #504a2c;
+}
+
+/* ------Our Team------Our Team End-------- */
+
+/* ------------App-----App Start------- */
+ .app{
+    height: 85vh;
+    width: 100vw;
+    background-image: url(image/Uranos_ser-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+
+ @media screen and (max-width:576px) {
+    .app {
+        min-height: 100vh;
+        background-image: url(image/app-banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+ }
+
+/* ------------App-----App End------- */
+
+/* -------Our Work-----Our Work Start------ */
+
+.our-work {
+    padding-top: 30px;
+    min-height: 55vh;
+    width: 100vw;
+    background-image: url(image/Uranos_header-img.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-work h5 {
+    color: #ffff;
+    padding: 10px;
+}
+
+.our-work p {
+    color: #636060;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.work-btn{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* -------Our Work-----Our Work End------ */
+
+
+/* ------Footer------Footer Start-------------- */
+
+.footer {
+    width: 100vw;
+    min-height: 60vh;
+    background-color: #191b29;
+    padding: 50px ;
+}
+.footer, h6 {
+    font-size: 18px;
+    color: #ffff ;
+}
+
+/* ------Footer------Footer End-------------- */
